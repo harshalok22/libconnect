@@ -1,0 +1,430 @@
+{
+  "users": [
+    {
+      "id": "usr_student1",
+      "name": "Rohan Sharma",
+      "email": "student@libconnect.edu",
+      "passwordHash": "$2a$10$g9V56y3/o4vskxJ5k4fFve1w9LphWbVq0mRzB.yYyO7yB789g6s7e",
+      "role": "Student",
+      "branch": "CSE",
+      "semester": 4,
+      "academicInterests": [
+        "Algorithms",
+        "Web Development",
+        "Machine Learning"
+      ],
+      "borrowLimit": 5,
+      "finesPending": 0
+    },
+    {
+      "id": "usr_student2",
+      "name": "Ananya Verma",
+      "email": "student2@libconnect.edu",
+      "passwordHash": "$2a$10$g9V56y3/o4vskxJ5k4fFve1w9LphWbVq0mRzB.yYyO7yB789g6s7e",
+      "role": "Student",
+      "branch": "IT",
+      "semester": 6,
+      "academicInterests": [
+        "Cloud Computing",
+        "Database Systems"
+      ],
+      "borrowLimit": 5,
+      "finesPending": 15
+    },
+    {
+      "id": "usr_librarian",
+      "name": "Dr. Ramesh Kumar",
+      "email": "librarian@libconnect.edu",
+      "passwordHash": "$2a$10$g9V56y3/o4vskxJ5k4fFve1w9LphWbVq0mRzB.yYyO7yB789g6s7e",
+      "role": "Librarian",
+      "branch": "Library Admin",
+      "semester": 0,
+      "academicInterests": [],
+      "borrowLimit": 20,
+      "finesPending": 0
+    },
+    {
+      "id": "usr_admin",
+      "name": "Principal Saxena",
+      "email": "admin@libconnect.edu",
+      "passwordHash": "$2a$10$g9V56y3/o4vskxJ5k4fFve1w9LphWbVq0mRzB.yYyO7yB789g6s7e",
+      "role": "LibraryAdmin",
+      "branch": "Management",
+      "semester": 0,
+      "academicInterests": [],
+      "borrowLimit": 10,
+      "finesPending": 0
+    },
+    {
+      "id": "usr_1780560205941",
+      "name": "harsh alok",
+      "email": "alokharsh52@gmail.com",
+      "passwordHash": "$2a$10$SU3ez9eip2ZJRdlReAABYutPUtHokRMRb/R2CY4Dg3fJ6GgfhuwPi",
+      "role": "Student",
+      "branch": "CSE",
+      "semester": 4,
+      "academicInterests": [
+        "algorithm",
+        "machine learning"
+      ],
+      "borrowLimit": 5,
+      "finesPending": 0
+    },
+    {
+      "id": "usr_1780771508137",
+      "name": "harsh",
+      "email": "harsh.alok.sinha.22@gmail.com",
+      "passwordHash": "$2a$10$AhSNl6yilDTUyzo6uIckgO3ZGje8O7ir8In1tsAXgV9iUNwE/7262",
+      "role": "Student",
+      "branch": "CSE",
+      "semester": 4,
+      "academicInterests": [
+        "data science",
+        "machine learning"
+      ],
+      "borrowLimit": 5,
+      "finesPending": 0
+    }
+  ],
+  "books": [
+    {
+      "id": "bk_ds_c",
+      "title": "Data Structures and Algorithms in C++",
+      "author": "Adam Drozdek",
+      "isbn": "978-1133594236",
+      "subject": "Data Structures",
+      "branch": "CSE",
+      "semester": 3,
+      "publicationYear": 2012,
+      "keywords": [
+        "data structures",
+        "algorithms",
+        "c++",
+        "binary tree",
+        "sorting"
+      ],
+      "totalCopies": 5,
+      "availableCopies": 4,
+      "popularity": 88,
+      "location": {
+        "rack": "C-12",
+        "shelf": 4,
+        "section": "Computer Science"
+      },
+      "conditionScore": 92,
+      "status": "Available"
+    },
+    {
+      "id": "bk_db_concepts",
+      "title": "Database System Concepts",
+      "author": "Abraham Silberschatz",
+      "isbn": "978-0078022135",
+      "subject": "Database Systems",
+      "branch": "CSE",
+      "semester": 4,
+      "publicationYear": 2019,
+      "keywords": [
+        "sql",
+        "database",
+        "transaction",
+        "nosql",
+        "rdbms"
+      ],
+      "totalCopies": 8,
+      "availableCopies": 6,
+      "popularity": 94,
+      "location": {
+        "rack": "C-15",
+        "shelf": 2,
+        "section": "Computer Science"
+      },
+      "conditionScore": 85,
+      "status": "Available"
+    },
+    {
+      "id": "bk_modern_os",
+      "title": "Modern Operating Systems",
+      "author": "Andrew S. Tanenbaum",
+      "isbn": "978-0133591620",
+      "subject": "Operating Systems",
+      "branch": "CSE",
+      "semester": 4,
+      "publicationYear": 2014,
+      "keywords": [
+        "kernel",
+        "process",
+        "memory management",
+        "linux",
+        "file system"
+      ],
+      "totalCopies": 4,
+      "availableCopies": 1,
+      "popularity": 91,
+      "location": {
+        "rack": "C-18",
+        "shelf": 1,
+        "section": "Computer Science"
+      },
+      "conditionScore": 78,
+      "status": "Available"
+    },
+    {
+      "id": "bk_intro_ml",
+      "title": "Introduction to Machine Learning with Python",
+      "author": "Andreas C. Müller",
+      "isbn": "978-1449369415",
+      "subject": "Machine Learning",
+      "branch": "CSE",
+      "semester": 6,
+      "keywords": [
+        "python",
+        "scikit-learn",
+        "machine learning",
+        "ai",
+        "regression"
+      ],
+      "publicationYear": 2016,
+      "totalCopies": 3,
+      "availableCopies": 0,
+      "popularity": 99,
+      "location": {
+        "rack": "A-04",
+        "shelf": 3,
+        "section": "Artificial Intelligence"
+      },
+      "conditionScore": 96,
+      "status": "Out of Stock"
+    },
+    {
+      "id": "bk_concrete_tech",
+      "title": "Concrete Technology: Theory and Practice",
+      "author": "M. S. Shetty",
+      "isbn": "978-8121903721",
+      "subject": "Concrete Technology",
+      "branch": "Civil",
+      "semester": 3,
+      "publicationYear": 2015,
+      "keywords": [
+        "concrete",
+        "cement",
+        "civil engineering",
+        "construction"
+      ],
+      "totalCopies": 6,
+      "availableCopies": 5,
+      "popularity": 65,
+      "location": {
+        "rack": "CV-02",
+        "shelf": 2,
+        "section": "Civil Engineering"
+      },
+      "conditionScore": 45,
+      "status": "Available"
+    },
+    {
+      "id": "bk_strength_materials",
+      "title": "Strength of Materials",
+      "author": "R. K. Bansal",
+      "isbn": "978-8131808146",
+      "subject": "Mechanics",
+      "branch": "Mechanical",
+      "semester": 3,
+      "publicationYear": 2018,
+      "keywords": [
+        "beams",
+        "strains",
+        "stress",
+        "mechanical engineering"
+      ],
+      "totalCopies": 5,
+      "availableCopies": 5,
+      "popularity": 72,
+      "location": {
+        "rack": "ME-07",
+        "shelf": 5,
+        "section": "Mechanical Engineering"
+      },
+      "conditionScore": 90,
+      "status": "Available"
+    },
+    {
+      "id": "bk_marketing_mgmt",
+      "title": "Marketing Management",
+      "author": "Philip Kotler",
+      "isbn": "978-0135188613",
+      "subject": "Marketing",
+      "branch": "BBA",
+      "semester": 2,
+      "publicationYear": 2021,
+      "keywords": [
+        "marketing",
+        "strategy",
+        "business",
+        "brand"
+      ],
+      "totalCopies": 10,
+      "availableCopies": 9,
+      "popularity": 87,
+      "location": {
+        "rack": "B-01",
+        "shelf": 3,
+        "section": "Business Administration"
+      },
+      "conditionScore": 88,
+      "status": "Available"
+    }
+  ],
+  "issues": [
+    {
+      "id": "iss_1",
+      "bookId": "bk_modern_os",
+      "bookTitle": "Modern Operating Systems",
+      "userId": "usr_student1",
+      "userName": "Rohan Sharma",
+      "issueDate": "2026-05-15",
+      "dueDate": "2026-05-30",
+      "returnDate": "2026-05-29",
+      "fineAmount": 0,
+      "status": "Returned",
+      "renewalCount": 0
+    },
+    {
+      "id": "iss_2",
+      "bookId": "bk_db_concepts",
+      "bookTitle": "Database System Concepts",
+      "userId": "usr_student1",
+      "userName": "Rohan Sharma",
+      "issueDate": "2026-05-20",
+      "dueDate": "2026-06-04",
+      "fineAmount": 0,
+      "status": "Issued",
+      "renewalCount": 0
+    },
+    {
+      "id": "iss_3",
+      "bookId": "bk_intro_ml",
+      "bookTitle": "Introduction to Machine Learning with Python",
+      "userId": "usr_student2",
+      "userName": "Ananya Verma",
+      "issueDate": "2026-05-10",
+      "dueDate": "2026-05-25",
+      "fineAmount": 15,
+      "status": "Overdue",
+      "renewalCount": 1
+    }
+  ],
+  "studyGroups": [
+    {
+      "id": "grp_cse_algo",
+      "name": "Algorithm Wizards",
+      "subject": "Data Structures",
+      "branch": "CSE",
+      "semester": 3,
+      "creatorId": "usr_student1",
+      "members": [
+        "usr_student1",
+        "usr_student2",
+        "usr_1780560205941"
+      ],
+      "sessions": [
+        {
+          "id": "sess_1",
+          "title": "Graph Traversal Prep",
+          "dateTime": "2026-06-06T15:00",
+          "location": "Seminar Room A"
+        }
+      ],
+      "messages": [
+        {
+          "id": "msg_1",
+          "senderId": "usr_student1",
+          "senderName": "Rohan Sharma",
+          "content": "Hey guys, let's study BFS & DFS traversal algorithms this Saturday.",
+          "timestamp": "2026-06-04T10:30:00Z"
+        },
+        {
+          "id": "msg_2",
+          "senderId": "usr_student2",
+          "senderName": "Ananya Verma",
+          "content": "Awesome, count me in! I will bring notes on Dijkstra's algorithm too.",
+          "timestamp": "2026-06-04T10:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "grp_dbms_squad",
+      "name": "DBMS Schema Crew",
+      "subject": "Database Systems",
+      "branch": "CSE",
+      "semester": 4,
+      "creatorId": "usr_student2",
+      "members": [
+        "usr_student2"
+      ],
+      "sessions": [],
+      "messages": []
+    }
+  ],
+  "listings": [
+    {
+      "id": "lst_1",
+      "bookTitle": "Cracking the Coding Interview",
+      "author": "Gayle Laakmann McDowell",
+      "ownerId": "usr_student1",
+      "ownerName": "Rohan Sharma",
+      "type": "Lend",
+      "status": "Available",
+      "createdAt": "2026-06-01T12:00:00Z"
+    },
+    {
+      "id": "lst_2",
+      "bookTitle": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "ownerId": "usr_student2",
+      "ownerName": "Ananya Verma",
+      "type": "Sell",
+      "price": 350,
+      "status": "Available",
+      "createdAt": "2026-06-02T14:30:00Z"
+    },
+    {
+      "id": "lst_1780560295882",
+      "bookTitle": "intoduction to algorithm",
+      "author": "thomas h cormen",
+      "ownerId": "usr_1780560205941",
+      "ownerName": "harsh alok",
+      "type": "Lend",
+      "status": "Available",
+      "createdAt": "2026-06-04T08:04:55.882Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att_1",
+      "userId": "usr_student1",
+      "userName": "Rohan Sharma",
+      "checkIn": "2026-06-01T09:00:00Z",
+      "checkOut": "2026-06-01T14:00:00Z",
+      "totalHours": 5,
+      "date": "2026-06-01"
+    },
+    {
+      "id": "att_2",
+      "userId": "usr_student1",
+      "userName": "Rohan Sharma",
+      "checkIn": "2026-06-02T10:00:00Z",
+      "checkOut": "2026-06-02T16:30:00Z",
+      "totalHours": 6.5,
+      "date": "2026-06-02"
+    },
+    {
+      "id": "att_3",
+      "userId": "usr_student2",
+      "userName": "Ananya Verma",
+      "checkIn": "2026-06-03T11:00:00Z",
+      "checkOut": "2026-06-03T13:00:00Z",
+      "totalHours": 2,
+      "date": "2026-06-03"
+    }
+  ]
+}
